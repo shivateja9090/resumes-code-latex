@@ -1,0 +1,200 @@
+%-------------------------
+% Resume in LateX
+% Author : Shiva Teja
+% Based on: Multiple reference templates
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.2in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate PDF is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\footnotesize{
+    {#1}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\footnotesize#3} & \textit{\footnotesize #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\footnotesize#1} & \textit{\footnotesize #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \footnotesize#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Shiva Teja} \\ \vspace{0.5pt}
+    \small 
+    \href{tel:+917675069090}{+91 76750 69090} $|$ 
+    \href{mailto:gshivateja2001@gmail.com}{gshivateja2001@gmail.com} $|$ 
+    \href{https://linkedin.com/in/shiva-teja-258949169}{linkedin.com/in/shiva-teja-258949169} \\ \vspace{0.5pt}
+    \href{https://github.com/shivateja9090}{github.com/shivateja9090} $|$ Hyderabad, India
+\end{center}
+
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\vspace{1pt}
+\resumeSubHeadingListStart
+    \footnotesize{\item{
+        Python Full-Stack Engineer with 3.5 years of experience developing end-to-end web applications using Django and React.js. Skilled in designing microservices, integrating third-party APIs, and optimizing performance. Proven ability to deploy scalable solutions on AWS and maintain high code quality through testing.
+    }}
+\resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Aurora's Technological Research Institute}{Hyderabad, India}
+      {Bachelor of Technology in Information Technology; GPA: 7.5/10.0}{Jun 2018 -- Jun 2022}
+  \resumeSubHeadingListEnd
+
+
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {VassarLabs}{Hyderabad, India}
+      {Software Engineer I / Python Full-Stack Engineer}{Apr 2022 -- Present}
+      \resumeItemListStart
+        \resumeItem{Led the design and implementation of Django-based microservices architecture, ensuring modular and scalable backend solutions}
+        \resumeItem{Integrated third-party service providers (Twilio, Infobip, SendGrid) via Python SDK to enable robust communication features}
+        \resumeItem{Implemented identity and access management (IAM) using Keycloak with Role-Based Access Control (RBAC) for user permissions}
+        \resumeItem{Developed React.js front-end components with Hooks, Context API, and Redux to enhance user experience and maintainability}
+        \resumeItem{Built reusable component libraries with styled-components and ensured responsive design across devices}
+        \resumeItem{Employed TypeScript in React for type-safe code, reducing runtime errors and improving developer productivity}
+        \resumeItem{Optimized front-end performance through code-splitting, lazy loading, memoization, and virtualization, reducing initial load times by 30\%}
+        \resumeItem{Used React Testing Library and Jest for unit and integration testing of UI components, achieving 90\% code coverage}
+        \resumeItem{Implemented comprehensive monitoring and observability using Datadog (APM, Logs, Metrics), enabling proactive alerting and reducing MTTR by 25\%}
+        \resumeItem{Utilized AWS services (S3 for storage, Lambda for serverless tasks, EC2 for compute) to enhance scalability and resilience}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Rtechno Solutions}{Hyderabad, India}
+      {Web Developer Intern}{Aug 2021 -- Dec 2021}
+      \resumeItemListStart
+        \resumeItem{Developed responsive web applications using PHP, JavaScript, and CSS3, collaborating with designers to enhance UI/UX}
+        \resumeItem{Managed MySQL/PostgreSQL databases for dynamic content and implemented database optimization techniques}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+  \resumeSubHeadingListStart
+    \footnotesize{\item{
+        \textbf{Programming Languages:}{ Python, JavaScript, TypeScript, SQL} \\ \vspace{1pt}
+        
+        \textbf{Backend Frameworks:}{ Django, Flask, Django REST Framework (DRF)} \\ \vspace{1pt}
+        
+        \textbf{Front-End Frameworks:}{ React.js, Node.js} \\ \vspace{1pt}
+        
+        \textbf{Web APIs:}{ REST, WebSockets} \\ \vspace{1pt}
+        
+        \textbf{Databases:}{ PostgreSQL, MySQL, MongoDB, Redis} \\ \vspace{1pt}
+        
+        \textbf{Cloud \& DevOps:}{ AWS (EC2, S3, Lambda, RDS), Docker, Kubernetes, GitHub Actions} \\ \vspace{1pt}
+        
+        \textbf{Monitoring \& Testing:}{ Datadog, Jest, React Testing Library, Unit Testing, Integration Testing} \\ \vspace{1pt}
+        
+        \textbf{Methodologies:}{ Agile/Scrum, CI/CD, Microservices, OAuth2/SSO}
+    }}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Key Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Kredos AI - Credit Scoring Platform} $|$ \emph{Python, Django, React.js, Microservices, AI/ML, Financial Technology}}{2023}
+          \resumeItemListStart
+            \resumeItem{Architected and developed a microservices-based credit scoring platform using Django REST Framework and React.js, implementing scalable architecture and automated testing}
+            \resumeItem{Built scalable microservices for risk assessment, data processing, and decision-making workflows with real-time API integrations}
+            \resumeItem{Designed and implemented real-time dashboard analytics with interactive data visualization and automated reporting systems for financial insights}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+          {\textbf{Identity Management System} $|$ \emph{Python, Django, React.js, Keycloak, Security}}{2022}
+          \resumeItemListStart
+            \resumeItem{Integrated Keycloak for centralized authentication and authorization with Role-Based Access Control (RBAC)}
+            \resumeItem{Developed custom UI components for user management, role assignment, and security administration}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document} 

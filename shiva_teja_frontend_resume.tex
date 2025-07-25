@@ -1,0 +1,203 @@
+%-------------------------
+% Resume in LateX
+% Author : Shiva Teja
+% Based on: Multiple reference templates
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.2in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate PDF is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\footnotesize{
+    {#1}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\footnotesize#3} & \textit{\footnotesize #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\footnotesize#1} & \textit{\footnotesize #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \footnotesize#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Shiva Teja} \\ \vspace{0.5pt}
+    \small 
+    \href{tel:+917675069090}{+91 76750 69090} $|$ 
+    \href{mailto:gshivateja2001@gmail.com}{gshivateja2001@gmail.com} $|$ 
+    \href{https://linkedin.com/in/shiva-teja-258949169}{linkedin.com/in/shiva-teja-258949169} \\ \vspace{0.5pt}
+    \href{https://github.com/shivateja9090}{github.com/shivateja9090} $|$ Hyderabad, India
+\end{center}
+
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\vspace{1pt}
+\resumeSubHeadingListStart
+    \footnotesize{\item{
+        Detail-oriented Front-End Developer with 3.5 years of experience building dynamic, responsive user interfaces using React.js, Angular, and TypeScript. Expert in component-driven development, state management, and performance optimization. Adept at collaborating with UX/UI designers and back-end teams to deliver seamless, high-quality web experiences.
+    }}
+\resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Aurora's Technological Research Institute}{Hyderabad, India}
+      {Bachelor of Technology in Information Technology; GPA: 7.5/10.0}{Jun 2018 -- Jun 2022}
+  \resumeSubHeadingListEnd
+
+
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {VassarLabs}{Hyderabad, India}
+      {Software Engineer I / Front-End Developer}{Apr 2022 -- Present}
+      \resumeItemListStart
+        \resumeItem{Architected and developed reusable React.js and Angular components, reducing development time by 30\%}
+        \resumeItem{Implemented complex state management with Redux and NgRx to handle asynchronous data flows and caching}
+        \resumeItem{Optimized client-side performance with code-splitting, lazy loading, and tree-shaking, improving load speeds by 40\%}
+        \resumeItem{Collaborated with UX/UI designers to translate wireframes into pixel-perfect, responsive layouts using Tailwind CSS and Material UI}
+        \resumeItem{Integrated frontend with RESTful APIs, ensuring secure and efficient data exchange}
+        \resumeItem{Developed end-to-end tests with Cypress and unit tests with Jest and Karma, achieving 90\% coverage}
+        \resumeItem{Implemented identity and access management (IAM) using Keycloak, leveraging Role-Based Access Control (RBAC) to efficiently manage and streamline user permissions}
+        \resumeItem{Configured CI/CD pipelines with GitHub Actions, deploying to Netlify and Vercel for staging and production}
+        \resumeItem{Built and maintained component libraries and design systems, ensuring consistency across multiple applications}
+        \resumeItem{Implemented advanced React patterns including custom hooks, context providers, and higher-order components}
+        \resumeItem{Optimized bundle sizes and implemented lazy loading strategies, reducing initial page load time by 35\%}
+        \resumeItem{Implemented Husky Git hooks for pre-commit linting and testing, ensuring code quality and preventing broken builds}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Rtechno Solutions}{Hyderabad, India}
+      {Web Developer Intern / Front-End Developer Intern}{Aug 2021 -- Dec 2021}
+      \resumeItemListStart
+        \resumeItem{Designed and implemented responsive websites and interactive UI features using HTML, CSS, JavaScript}
+        \resumeItem{Collaborated with senior developers in code reviews and maintaining existing web applications}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+  \resumeSubHeadingListStart
+    \footnotesize{\item{
+        \textbf{Languages:}{ JavaScript (ES6+), TypeScript, HTML5, CSS3, SCSS/Sass} \\ \vspace{0.5pt}
+        
+        \textbf{Frameworks:}{ React.js, Angular, Redux, NgRx, RxJS, Next.js} \\ \vspace{0.5pt}
+        
+        \textbf{UI Libraries:}{ Material UI, Bootstrap, Tailwind CSS, Ant Design} \\ \vspace{0.5pt}
+        
+        \textbf{Web Technologies:}{ RESTful APIs, WebSockets, JSON} \\ \vspace{0.5pt}
+        
+        \textbf{Build Tools:}{ Webpack, Babel, Vite, npm/Yarn, Node.js} \\ \vspace{0.5pt}
+        
+        \textbf{Testing:}{ Jest, React Testing Library, Cypress, Unit Testing, E2E Testing} \\ \vspace{0.5pt}
+        
+        \textbf{DevOps:}{ Docker, GitHub Actions, Netlify, Vercel, CI/CD, Git} \\ \vspace{0.5pt}
+        
+        \textbf{Cloud \& Performance:}{ AWS (EC2, S3, Lambda), Code-splitting, Lazy Loading, Tree-shaking, Bundle Optimization} \\ \vspace{0.5pt}
+        
+        \textbf{Security:}{ Keycloak, Role-Based Access Control (RBAC), OAuth}
+    }}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Key Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Kredos AI - Credit Scoring Platform} $|$ \emph{React.js, TypeScript, Microservices, AI/ML, Financial Technology}}{2023}
+          \resumeItemListStart
+            \resumeItem{Architected and developed a microservices-based credit scoring platform using React.js and TypeScript, implementing component-driven architecture and responsive design}
+            \resumeItem{Built scalable frontend components for risk assessment, data processing, and decision-making workflows with real-time API integrations}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+          {\textbf{Identity Management System} $|$ \emph{Keycloak, RBAC, React.js, Security}}{2022}
+          \resumeItemListStart
+            \resumeItem{Integrated Keycloak for centralized authentication and authorization with Role-Based Access Control (RBAC)}
+            \resumeItem{Developed custom UI components for user management, role assignment, and security administration}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document} 
